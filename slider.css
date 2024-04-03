@@ -1,0 +1,79 @@
+body{
+    background-color: rgba(27,31,34,0.85);
+}
+h1{
+    font-size: 2.1rem;
+    line-height: 1.4;
+    letter-spacing: 0.5rem ;
+    text-align: center;
+    margin-top: 050px;
+    color: white;
+}
+.div{
+    margin-left: 20px;
+    display: flex;
+   
+    border-radius: 2rem;
+    width: 95%;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    gap: 15px ;
+    box-shadow: 1px 2px  1rem  5px rgb(184, 194, 203);
+}
+
+.firstdiv{
+    height:380px;
+    width: 45%;
+    border: 1px solid white ;
+    border-radius: 15px;
+    box-shadow: 1px 2px  1rem  5px rgb(48, 63, 76);
+    animation: slider1 15s infinite linear ;
+}
+.seconddiv{
+    border: 1px solid white ;
+    border-radius: 15px;
+    box-shadow: 1px 2px  1rem  5px rgb(48, 63, 76);
+    height: 380px;
+    width: 45%;
+    animation: slider2 15s infinite linear ;
+     
+}
+@keyframes slider1{
+    0%{background-image: url(blur.jpg.jpg);background-size: 100% 100%; }
+    35%{ background-image: url(cycle.jpg.jpg);
+        background-size: 100% 100%; }
+    75%{  background-image: url(table.jpg.jpg);
+        background-size: 100% 100%;}
+    }
+    
+    @keyframes slider2{
+        0%{background-image: url(blur.jpg.jpg);background-size: 100% 100%; }
+        35%{ background-image: url(cycle.jpg.jpg);
+            background-size: 100% 100%; }
+        75%{  background-image: url(table.jpg.jpg);
+            background-size: 100% 100%;}
+        }
+
+
+/* .maindiv{
+    width: 40%;
+    height: 300px;
+    margin-top: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%) ;
+    background-image: url(blur.jpg.jpg);
+    background-size: 100% 100%;
+    box-shadow: 1px 2px  1rem  5px rgb(184, 194, 203);
+    animation: slider 15s infinite linear ;
+}
+
+@keyframes slider{
+    0%{background-image: url(blur.jpg.jpg);background-size: 100% 100%; }
+    35%{ background-image: url(cycle.jpg.jpg);
+        background-size: 100% 100%; }
+    75%{  background-image: url(table.jpg.jpg);
+        background-size: 100% 100%;}
+} */
